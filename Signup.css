@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+#navbarsignup::before {
+    content: " ";
+    position: absolute;
+    background-color: #6fa5ec;
+    height: 90%;
+    width: 101%;
+    z-index: -1;
+    border-radius: 50px;
+    margin: 4px 0 4px 0;
+}
+
+#navbarsignup {
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 98vw;
+    height: 35px;
+    align-items: center;
+}
+
+#signuphome span a {
+    text-decoration: none;
+    padding: 2px 10px;
+    color: black;
+    transition: all 0.3s ease-out;
+}
+
+#signuphome span a:hover {
+    background-color: black;
+    color: #6fa5ec;
+    border-radius: 20px;
+}
+
+#signuphome {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin: 10px 20px;
+    position: absolute;
+    z-index: 200;
+}
+
+.mid {
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 4px;
+    left: 8.4px;
+}
+
+
+/* Section */
+
+
+/* #formsection {
+    border: 2px solid black;
+} */
+
+.heading {
+    position: absolute;
+    top: 125px;
+    left: 175px;
+}
+
+#signupsection {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+#logoimg {
+    display: flex;
+    position: relative;
+    top: 200px;
+    justify-content: right;
+    left: 300px;
+}
+
+#signupform {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+
+.signupform {
+    padding: 18px 0px;
+    width: 532px;
+}
+
+.data {
+    margin: 0px 5px;
+    height: 25px;
+    border-radius: 20px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+#state {
+    height: 25px;
+}
+
+#dob {
+    position: relative;
+    left: 23px;
+}
+
+#dateofbirth {
+    width: 120px;
+    position: relative;
+    left: -17px;
+    top: 18px;
+}
+
+.dateofbirth {
+    display: flex;
+    width: 300px;
+}
+
+.dob {
+    position: relative;
+    left: -32px;
+    top: 14px;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 25px;
+}
+
+.data::placeholder {
+    padding: 0 5px;
+    color: black;
+}
+
+
+/* #Email {
+    width: 510px;
+} */
+
+
+/* .btnsubmit {
+    display: flex;
+} */
+
+.submitbtn {
+    background-color: #6fa5ec;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    width: 130px;
+    height: 35px;
+    border: none;
+    transition: all 0.3s ease-out;
+    margin: 0 10px;
+    text-align: center;
+    /* position: relative; */
+    /* top: 40px;
+    left: 5px; */
+    cursor: pointer;
+}
+
+.submitbtn:hover {
+    background-color: black;
+    color: #6fa5ec;
+    border-radius: 20px;
+}
+
+#age {
+    float: right;
+    width: 255px;
+    height: 28px;
+}
+
+#state {
+    float: left;
+    width: 256px;
+    height: 28px;
+}
+
+#buttons {
+    position: relative;
+    top: 34px;
+    left: 115px;
+}
